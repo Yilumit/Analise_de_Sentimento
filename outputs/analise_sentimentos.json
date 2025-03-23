@@ -1,0 +1,112 @@
+[
+    {
+        "sentimento_documento": "mixed",
+        "score_geral": {
+            "positivo": 0.36,
+            "neutro": 0.12,
+            "negativo": 0.52
+        },
+        "sentencas": [
+            {
+                "texto": "As ruas desta cidade estão muito esburacadas. ",
+                "sentimento": "negative",
+                "score": {
+                    "positivo": 0.02,
+                    "neutro": 0.11,
+                    "negativo": 0.88
+                },
+                "opinions": [
+                    {
+                        "alvo": {
+                            "texto": "ruas",
+                            "sentimento": "negative",
+                            "score": {
+                                "positivo": 0.04,
+                                "negativo": 0.96
+                            }
+                        },
+                        "avaliacoes": [
+                            {
+                                "texto": "esburacadas",
+                                "sentimento": "negative",
+                                "score": {
+                                    "positivo": 0.04,
+                                    "negativo": 0.96
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "texto": "Caí enquanto caminhava em uma rua. ",
+                "sentimento": "neutral",
+                "score": {
+                    "positivo": 0.05,
+                    "neutro": 0.69,
+                    "negativo": 0.26
+                },
+                "opinions": []
+            },
+            {
+                "texto": "Mesmo caindo enquanto andava em uma rua esburacada, eu me levantei contente porque achei um saquinho de moedas em um buraco. ",
+                "sentimento": "positive",
+                "score": {
+                    "positivo": 0.61,
+                    "neutro": 0.27,
+                    "negativo": 0.12
+                },
+                "opinions": []
+            },
+            {
+                "texto": "Os quartos estavam uma bagunça e bem limpos. ",
+                "sentimento": "positive",
+                "score": {
+                    "positivo": 0.79,
+                    "neutro": 0.09,
+                    "negativo": 0.12
+                },
+                "opinions": [
+                    {
+                        "alvo": {
+                            "texto": "quartos",
+                            "sentimento": "positive",
+                            "score": {
+                                "positivo": 0.7,
+                                "negativo": 0.3
+                            }
+                        },
+                        "avaliacoes": [
+                            {
+                                "texto": "bagunça",
+                                "sentimento": "negative",
+                                "score": {
+                                    "positivo": 0.43,
+                                    "negativo": 0.57
+                                }
+                            },
+                            {
+                                "texto": "bem limpos",
+                                "sentimento": "positive",
+                                "score": {
+                                    "positivo": 0.98,
+                                    "negativo": 0.02
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "texto": "Achei a apresentação horrível.",
+                "sentimento": "negative",
+                "score": {
+                    "positivo": 0.02,
+                    "neutro": 0.03,
+                    "negativo": 0.95
+                },
+                "opinions": []
+            }
+        ]
+    }
+]
